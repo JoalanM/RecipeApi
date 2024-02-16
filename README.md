@@ -23,19 +23,19 @@
 ```bash 
     `http://localhost:3000/research/:recipe`
 ```
-![Postman exemple](document/ex1.png)
+![Postman exemple](Back/document/ex1.png)
 
 ### Exemple 2 : Recherche d'une recette aléatoire
 ```bash 
     `hhttp://localhost:3000/recipe/random`
 ```
-![Postman exemple](document/ex2.png)
+![Postman exemple](Back/document/ex2.png)
 
 ### Exemple 3 : Recherche d'une recette similaire à une autre
 ```bash 
     `hhttp://localhost:3000/recipe/similar/:idRecipe`
 ```
-![Postman exemple](document/ex3.png)
+![Postman exemple](Back/document/ex3.png)
 
 [Documentaiton officelle de l'api recette](https://spoonacular.com/food-api/docs)
 
