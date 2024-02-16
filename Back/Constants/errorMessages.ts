@@ -1,0 +1,1 @@
+export const API_ERROR_MESSAGE = "Erreur lors de la récupération des données de l'api recipe";
