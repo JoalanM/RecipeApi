@@ -10,6 +10,7 @@
 ## Instruction d'instalation 
 1. Clonnez le depôt : `https://github.com/JoalanM/RecipeApi.git`
 2. Créer un repository local
+3. Aller dans le repertoire `Back`
 3. installer les dépendance : `npm install`
 4. lancer l'applicatiopn : ` npm start`
 
