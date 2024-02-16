@@ -4,6 +4,9 @@ import { errorHandler } from "./Middlewares/errorHandlers";
 import {API_KEY} from "./Constants/config"
 import { log } from "./Middlewares/queryLog";
 import { logOut } from "./Middlewares/responseLog";
+import swaggerJSDoc from "swagger-jsdoc";
+import { swaggerOptions } from "./swaggerOptions";
+import swaggerUi from "swagger-ui-express"
 
 const app = express();
 
@@ -29,6 +32,8 @@ app.get("/recipe/similar/:idRecipe", async (req: Request, res: Response, next: N
     await recipeController.getSimilarRecipe(req, res, next);
 });
 
+const specs = swaggerJSDoc(swaggerOptions);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 app.use(errorHandler)
 
 app.listen(PORT, () => {
