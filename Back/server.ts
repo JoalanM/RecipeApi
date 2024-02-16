@@ -21,6 +21,10 @@ app.get("/recipe/random", async (req: Request, res: Response, next: NextFunction
     await recipeController.getRandomRecipe(req, res, next);
 });
 
+app.get("/recipe/similar/:idRecipe", async (req: Request, res: Response, next: NextFunction)=> {
+    await recipeController.getSimilarRecipe(req, res, next);
+});
+
 app.use(errorHandler)
 
 app.listen(PORT, () => {

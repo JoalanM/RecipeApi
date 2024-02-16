@@ -52,4 +52,32 @@ export class RecipeController{
             next(new ApiError(API_ERROR_MESSAGE))
         }
     }
+
+    public async getSimilarRecipe(req : Request, res : Response, next: NextFunction): Promise<void> {
+        const idRecipe: string = req.params.idRecipe;
+        try{
+            const response : AxiosResponse = await axios.get(
+                `${RECIPE_API_BASE_URL}/${idRecipe}/similar?apiKey=${this.API_KEY}`
+            );
+
+            const data = response.data;
+            res.json(data);
+
+            // console.log(data.recipes[0].title);
+
+            // const miniMalData : MinimalRecipeData = {
+            //     title : response.data.recipes[0].title,
+            //     image : response.data.recipes[0].image,
+            //     readyInMinutes : response.data.recipes[0].readyInMinutes,
+            //     summary: response.data.recipes[0].summary, 
+            //     servings : response.data.recipes[0].extendedIngredients,
+            //     instructions : response.data.recipes[0].extendedIngredients,
+            //     extendedIngredients : response.data.recipes[0].extendedIngredients,
+            // }
+
+            // res.json(miniMalData);
+        }catch (error){
+            next(new ApiError(API_ERROR_MESSAGE))
+        }
+    }
 }
