@@ -95,3 +95,16 @@
 [2024-02-16T14:54:11.030Z] => Methode : GET // url : /api-docs/favicon-32x32.png // by : ::1
 [2024-02-16T14:54:26.180Z] => Methode : GET // url : /recipe/similar/655858 // by : ::1
 [2024-02-16T14:54:32.913Z] => Methode : GET // url : /recipe/similar/rgrgrgrg // by : ::1
+[2024-02-16T14:55:23.368Z] => Methode : GET // url : /api-docs/ // by : ::ffff:127.0.0.1
+[2024-02-16T14:55:23.395Z] => Methode : GET // url : /api-docs/swagger-ui.css // by : ::ffff:127.0.0.1
+[2024-02-16T14:55:23.400Z] => Methode : GET // url : /api-docs/swagger-ui-bundle.js // by : ::ffff:127.0.0.1
+[2024-02-16T14:55:23.402Z] => Methode : GET // url : /api-docs/swagger-ui-standalone-preset.js // by : ::1
+[2024-02-16T14:55:23.408Z] => Methode : GET // url : /api-docs/swagger-ui-init.js // by : ::ffff:127.0.0.1
+[2024-02-16T14:55:23.695Z] => Methode : GET // url : /api-docs/favicon-32x32.png // by : ::ffff:127.0.0.1
+[2024-02-16T14:59:16.893Z] => Methode : GET // url : /recipe/similar/655858 // by : ::1
+[2024-02-16T14:59:20.055Z] => Methode : GET // url : /recipe/similar/655858 // by : ::1
+[2024-02-16T14:59:24.713Z] => Methode : GET // url : /recipe/random // by : ::1
+[2024-02-16T14:59:36.473Z] => Methode : GET // url : /recipe/random // by : ::1
+[2024-02-16T14:59:43.206Z] => Methode : GET // url : /research/Petit%20Pain%20Au%20Chocolat // by : ::1
+[2024-02-16T15:00:38.980Z] => Methode : GET // url : /recipe/similar/655858 // by : ::1
+[2024-02-16T15:07:41.989Z] => Methode : GET // url : /recipe/similar/655858 // by : ::1
